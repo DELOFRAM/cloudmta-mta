@@ -1,0 +1,23 @@
+<meta>
+	<script src="replace.lua" type="client" />
+	<file src="belka.col" />
+	<file src="belka.dff" />
+	<file src="belkawylaczona.dff" />
+	<file src="blokada.col" />
+	<file src="blokada.dff" />
+	<file src="blokada.txd" />
+	<file src="halligan.dff" />
+	<file src="halligan.txd" />
+	<file src="mblokada.col" />
+	<file src="mblokada.dff" />
+	<file src="mblokada.txd" />
+	<file src="pacholek.col" />
+	<file src="pacholek.dff" />
+	<file src="telefon.col" />
+	<file src="telefon.dff" />
+	<file src="telefon.txd" />
+	<file src="zwloki.col" />
+	<file src="zwloki.dff" />
+	<file src="zwloki.txd" />
+	
+</meta>

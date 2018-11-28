@@ -1,0 +1,39 @@
+<meta>
+	<oop>true</oop>
+
+	<file src="client/skin7/male01.dff" />
+	<file src="client/skin7/male01.txd" />
+	<file src="client/skin7/textures/temptexture.png" />
+	<file src="client/skin7/textures/up/1.png" />
+	<file src="client/skin7/textures/up/2.png" />
+	<file src="client/skin7/textures/up/3.png" />
+	<file src="client/skin7/textures/up/4.png" />
+	<file src="client/skin7/textures/up/5.png" />
+
+	<file src="client/skin60/omyst.dff" />
+	<file src="client/skin60/omyst.txd" />
+	<file src="client/skin60/textures/bluza.png" />
+	<file src="client/skin60/textures/bluza2.png" />
+	<file src="client/skin60/textures/spodnie.png" />
+
+	<file src="client/skin106/fam2.dff" />
+	<file src="client/skin106/fam2.txd" />
+	<file src="client/skin106/textures/fam2.png" />
+	<file src="client/skin106/textures/pants.png" />
+	<file src="client/skin106/textures/shirt.PNG" />
+	<file src="client/skin106/textures/shoes.png" />
+
+	<file src="client/skin111/maffa.dff" />
+	<file src="client/skin111/maffa.txd" />
+	<file src="client/skin111/textures/maffa.png" />
+	<file src="client/skin111/textures/maffa-buty.png" />
+	<file src="client/skin111/textures/maffa-2.png" />
+	<file src="client/skin111/textures/maffa-marynarka.png" />
+	<file src="client/skin111/textures/maffa-spodnie.png" />
+	<file src="client/skin111/textures/maffa-spodnie2.png" />
+
+	<file src="client/texture.fx" />
+	<script src="server/main.lua" />
+	<script src="client/main.lua" type="client" cache="false" />
+	<min_mta_version client="1.3.0-9.04431"  />
+</meta>

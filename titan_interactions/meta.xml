@@ -1,0 +1,23 @@
+<meta>
+	<oop>true</oop>
+
+	<file src="client/files/256/hex_bg.png" />
+	<file src="client/files/256/outline_1.png" />
+	<file src="client/files/256/outline_2.png" />
+	<file src="client/files/256/outline_3.png" />
+	<file src="client/files/256/outline_4.png" />
+	<file src="client/files/256/outline_5.png" />
+	<file src="client/files/256/outline_6.png" />
+
+	<file src="client/files/128/hex_bg.png" />
+	<file src="client/files/128/outline_1.png" />
+	<file src="client/files/128/outline_2.png" />
+	<file src="client/files/128/outline_3.png" />
+	<file src="client/files/128/outline_4.png" />
+	<file src="client/files/128/outline_5.png" />
+	<file src="client/files/128/outline_6.png" />
+
+	<file src="client/files/latomedium.ttf" />
+
+	<script src="client/main.lua" type="client" cache="false" />
+</meta>

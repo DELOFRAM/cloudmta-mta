@@ -1,0 +1,15 @@
+<meta>
+<info author="http://Rick" type="script" />
+<script src="data.lua" type="shared"/>
+<script src="core.lua" type="server"/>
+<script src="server/main.lua" type="server"/>
+<script src="client/main.luac" type="client"/>
+
+<file src="files/bar.png" />
+<file src="files/full_bar.png" />
+
+<export function="installationVehicleComponent"/>
+<export function="UninstallationVehicleComponent"/>
+<export function="loadVehicleComponent"/>
+
+</meta>

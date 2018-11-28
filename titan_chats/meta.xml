@@ -1,0 +1,46 @@
+<meta>
+    <info name="Titan Engine - System czatu" author="Kubas" type="misc" version="1.0" />
+    <oop>true</oop>
+    <file src="main/client/pwSound.mp3" />
+    <file src="main/client/pwSound2.mp3" />
+    
+    <script src="core.lua" />
+    
+    <script src="main/chats.lua" />
+    <script src="main/cmdDo.lua" />
+    <script src="main/cmdL.lua" />
+    <script src="main/cmdS.lua" />
+    <script src="main/cmdK.lua" />
+    <script src="main/cmdM.lua" />
+    <script src="main/cmdW.lua" />
+    <script src="main/cmdB.lua" />
+    <script src="main/cmdD.lua" />
+    <script src="main/cmdTog.lua" />
+    <script src="main/cmdSprobuj.lua" />
+    
+    <script src="main/client/oocchat.luac" type="client" cache="true" />
+    <script src="main/client/sounds.luac" type="client" cache="true" />
+    <!--<script src="customchat/client/main.lua" type="client" cache="false" />
+
+	<file src="ui.html" />-->
+    
+    <export function="sendPlayerLocalMessageRadius" />
+    <export function="sendPlayerLocalMessageRadiusPosition" />
+    <export function="sendPlayerLocalMessageRadiusColor" />
+    <export function="sendPlayerLocalMeRadius" />
+    <export function="sendPlayerLocalMeRadiusCash" />
+    <export function="sendPlayerLocalDoRadius" />
+    <export function="firstToUpper" />
+    <export function="addStop" />
+    <export function="sendPlayerLocalMessageID" />
+    <export function="getPlayerICName" />
+    
+    <export function="addPlayerOOCMessage" />
+    <export function="turnOOCOn" />
+    
+    <export function="getPlayerICName" />
+    
+    <export function="onPlayerChat2" />
+    <export function="sendPlayerChatMessage" />
+    <min_mta_version server="1.3.4-0.00000" client="1.5.2-9.07903"></min_mta_version>
+</meta>

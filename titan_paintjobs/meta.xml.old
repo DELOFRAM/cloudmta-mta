@@ -1,0 +1,12 @@
+<meta>
+	<oop>true</oop>
+	<script src="client/main.luac" type="client" cache="true" />
+	<script src="server/main.lua" />
+
+	<export function="updatePaintjob" />
+
+	<file src="client/texture.fx" />
+
+	<file src="files/416/1.png" />
+	<file src="files/416/2.png" />
+</meta>

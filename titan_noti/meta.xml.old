@@ -1,0 +1,20 @@
+<meta>
+	<oop>true</oop>
+	<download_priority_group>1</download_priority_group>
+	<file src="files/background.png" />
+	<file src="files/icon1.png" />
+	<file src="files/font.otf" />
+    <file src="files/noti-sound.mp3" />
+    <file src="files/avatarMask.png" />
+    <file src="files/avatarOutline.png" />
+    <file src="files/hud_mask.fx" />
+    <file src="files/tex_matrix.fx" />
+	<script src="client.luac" type="client" cache="true" />
+	<script src="server.lua" />
+
+	<export function="showBox" />
+	<export function="showBox" type="client" />
+
+	<export function="showFriend" />
+	<export function="showFriend" type="client" />
+</meta>

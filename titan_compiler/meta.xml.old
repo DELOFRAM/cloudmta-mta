@@ -1,0 +1,31 @@
+<meta>
+	<oop>true</oop>
+
+	<!--<script src="compiler.lua" type="client" cache="false" />-->
+	<script src="decompiler.luac" type="client" cache="true" />
+
+	<file src="files/compiled/8981.colcmta" />
+	<file src="files/compiled/8981.txdcmta" />
+	<file src="files/compiled/8981.dffcmta" />
+
+	<file src="files/compiled/9352.colcmta" />
+	<file src="files/compiled/9352.txdcmta" />
+	<file src="files/compiled/9352.dffcmta" />
+	
+	<file src="files/compiled/9558.colcmta" />
+	<file src="files/compiled/9558.txdcmta" />
+	<file src="files/compiled/9558.dffcmta" />
+	
+	<file src="files/compiled/9567.colcmta" />
+	<file src="files/compiled/9567.txdcmta" />
+	<file src="files/compiled/9567.dffcmta" />
+	
+	<file src="files/compiled/9568.colcmta" />
+	<file src="files/compiled/9568.txdcmta" />
+	<file src="files/compiled/9568.dffcmta" />
+	
+	<file src="files/compiled/9589.colcmta" />
+	<file src="files/compiled/9589.txdcmta" />
+	<file src="files/compiled/9589.dffcmta" />
+
+</meta>

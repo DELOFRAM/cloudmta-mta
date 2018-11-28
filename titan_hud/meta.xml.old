@@ -1,0 +1,247 @@
+<meta>
+	<oop>true</oop>
+	<file src="playerNames/font/font.ttf" />
+	<file src="playerNames/font/MyriadPro-Bold.otf" />
+	<script src="playerNames/server/main.lua" />
+	<script src="playerDesc/client.luac" type="client" cache="true" />
+	<script src="playerNames/client/playerNames.luac" type="client" cache="true" />
+	<script src="gunsAttach/client/main.luac" type="client" cache="true" />
+	<!--<script src="customModels/client.lua" type="client" />-->
+
+	<script src="afk/client.luac" type="client" cache="true"/>
+
+	<file src="hud/files/OpenSans-Regular.ttf" />
+	<file src="hud/files/OpenSans-Light.ttf" />
+
+	<file src="hud/files/allHUDbg.png" />
+
+	<!--<file src="customModels/files/badge.dff" />
+	<file src="customModels/files/badge.txd" />
+
+	<file src="customModels/files/halligan.dff" />
+	<file src="customModels/files/halligan.txd" />
+
+	<file src="customModels/files/kogut.txd" />
+	<file src="customModels/files/kogut.dff" />
+	<file src="customModels/files/kogut.col" />-->
+	
+	<!-- IKONY STATUSÓW GRACZA -->
+	<file src="playerNames/client/dmg.png" />
+	<file src="playerNames/client/afk.png" />
+	<file src="playerNames/client/chatTyping.png" />
+	<file src="playerNames/client/pw.png" />
+	<file src="playerNames/client/phone.png" />
+	<file src="playerNames/client/cuff.png" />
+	<file src="playerNames/client/belts.png" />
+	<!-- IKONY HUDU -->
+	<file src="hud/files/money.png" />
+	<file src="hud/files/legend.png" />
+	<file src="hud/files/HUDbg.png" />
+	<file src="hud/files/ikona_ekwipunek.png" />
+	<file src="hud/files/ikona_identyfikator.png" />
+	<file src="hud/files/ikona_znajomi.png" />
+	<file src="hud/files/pay_bank.png" />
+	<file src="hud/files/pay_portfel.png" />
+	<file src="hud/files/stan_obrys.png" />
+	<file src="hud/files/stan_pancerz.png" />
+	<file src="hud/files/stan_stamina.png" />
+	<file src="hud/files/stan_zycie.png" />
+	<file src="hud/files/stan_glod.png" />
+	<file src="hud/files/stan_oxygen.png" />
+	<file src="hud/files/status.png" />
+	<file src="hud/files/status_obrys.png" />
+	<!-- IKONY BRONI -->
+	<file src="hud/files/icons/0.png" />
+	<file src="hud/files/icons/1.png" />
+	<file src="hud/files/icons/2.png" />
+	<file src="hud/files/icons/3.png" />
+	<file src="hud/files/icons/4.png" />
+	<file src="hud/files/icons/5.png" />
+	<file src="hud/files/icons/6.png" />
+	<file src="hud/files/icons/7.png" />
+	<file src="hud/files/icons/8.png" />
+	<file src="hud/files/icons/9.png" />
+	<file src="hud/files/icons/10.png" />
+	<file src="hud/files/icons/11.png" />
+	<file src="hud/files/icons/12.png" />
+	<file src="hud/files/icons/14.png" />
+	<file src="hud/files/icons/15.png" />
+	<file src="hud/files/icons/16.png" />
+	<file src="hud/files/icons/17.png" />
+	<file src="hud/files/icons/18.png" />
+	<file src="hud/files/icons/22.png" />
+	<file src="hud/files/icons/23.png" />
+	<file src="hud/files/icons/24.png" />
+	<file src="hud/files/icons/25.png" />
+	<file src="hud/files/icons/26.png" />
+	<file src="hud/files/icons/27.png" />
+	<file src="hud/files/icons/28.png" />
+	<file src="hud/files/icons/29.png" />
+	<file src="hud/files/icons/30.png" />
+	<file src="hud/files/icons/31.png" />
+	<file src="hud/files/icons/32.png" />
+	<file src="hud/files/icons/33.png" />
+	<file src="hud/files/icons/34.png" />
+	<file src="hud/files/icons/35.png" />
+	<file src="hud/files/icons/36.png" />
+	<file src="hud/files/icons/37.png" />
+	<file src="hud/files/icons/38.png" />
+	<file src="hud/files/icons/39.png" />
+	<file src="hud/files/icons/40.png" />
+	<file src="hud/files/icons/41.png" />
+	<file src="hud/files/icons/42.png" />
+	<file src="hud/files/icons/43.png" />
+	<file src="hud/files/icons/44.png" />
+	<file src="hud/files/icons/45.png" />
+	<!-- IKONY OFERT -->
+	<file src="hud/files/icon_car.png" />
+	<file src="hud/files/icon_carsalon.png" />
+	<file src="hud/files/icon_docs.png" />
+	<file src="hud/files/icon_doors.png" />
+	<file src="hud/files/icon_fix.png" />
+	<file src="hud/files/icon_interaction.png" />
+	<file src="hud/files/icon_item.png" />
+	<file src="hud/files/icon_other.png" />
+	<file src="hud/files/icon_ad.png" />
+	<file src="hud/files/icon_interview.png" />
+
+	<script src="hud/client/main.luac" type="client" cache="true" />
+	<script src="hud/server/main.lua" />
+
+	<export function="showSGamingHUD" type="client" />
+	<export function="hideSGamingHUD" type="client" />
+
+	<export function="showSGamingHUD" />
+	<export function="hideSGamingHUD" />
+
+	<export function="giveClientFaceCodes" />
+	<export function="giveClientFaceCode" />
+
+	<export function="cashClick" />
+
+	<!-- SN 
+	<file src="news/files/OpenSans-BoldItalic.ttf" />
+	<file src="news/files/breaking-news.png" />
+	<file src="news/files/reklama.png" />
+	<file src="news/files/wywiad.png" />
+	<script src="news/client/main.lua" type="client" />
+	<script src="news/server/main.lua" />-->
+
+	<script src="core.lua" />
+
+	<export function="updateHUDReportsState" />
+
+	<!--
+	<script src="shaders/veh/c_car_reflect_lite.lua" type="client" />
+	<script src="shaders/veh/c_switch.lua" type="client" />
+	<file src="shaders/veh/fx/car_refgrun.fx" type="client" />
+	<file src="shaders/veh/fx/car_refgene.fx" type="client" />
+	<file src="shaders/veh/fx/mta-helper.fx" type="client" />
+	<file src="shaders/veh/images/smallnoise3d.dds" type="client" />
+	<file src="shaders/veh/images/ColorRamp01.png" type="client" />
+	-->
+
+	<!-- RADAR -->
+
+	<file src="sradar/client/files/map.jpg" />
+	<file src="sradar/client/files/player.png" />
+	<file src="sradar/client/files/bg.png" />
+
+	<file src="sradar/client/files/blips/north.png" />
+	<file src="sradar/client/files/blips/0.png" />
+
+	<script src="sradar/client/main.luac" type="client" cache="true" />
+	<script src="sradar/server/main.lua" />
+
+	<export function="toggleRadarVisible" />
+	<export function="toggleRadarVisible" type="client" />
+
+	<!-- quit -->
+	<file src="quit/images/exit.png" />
+	<script src="quit/shared/server.lua" />
+	<script src="quit/client/client.luac" type="client" cache="true" />
+	<export function="createQuitText" />
+	<export function="createQuitText" type="client" />
+
+	<!-- KARY -->
+	<file src="sradar/client/files/pBg.png" />
+	<file src="sradar/client/files/font.otf" />
+	<export function="showPenalty" />
+	<export function="showPayday" />
+
+	<!-- OFERTY -->
+	<export function="showClientOffer" />
+	<export function="hideClientOffer" />
+
+	<!-- LICZNIK -->
+	<file src="speedometer/client/files/1/bg.png" />
+	<file src="speedometer/client/files/1/arrow.png" />
+	<file src="speedometer/client/files/1/indicatorl.png" />
+	<file src="speedometer/client/files/1/indicatorr.png" />
+	<file src="speedometer/client/files/1/on_indicatorl.png" />
+	<file src="speedometer/client/files/1/on_indicatorr.png" />
+	<file src="speedometer/client/files/1/on_lights.png" />
+	<file src="speedometer/client/files/1/lights.png" />
+	<file src="speedometer/client/files/1/on_handbrake.png" />
+	<file src="speedometer/client/files/1/handbrake.png" />
+	<file src="speedometer/client/files/1/engine1.png" />
+	<file src="speedometer/client/files/1/engine2.png" />
+	<file src="speedometer/client/files/1/engine3.png" />
+	<file src="speedometer/client/files/1/distance.png" />
+	<file src="speedometer/client/files/1/fuelbg.png" />
+	<file src="speedometer/client/files/1/fuelcross.png" />
+	<file src="speedometer/client/files/1/fuel.png" />
+	<file src="speedometer/client/files/1/on_fuel.png" />
+
+	<file src="speedometer/client/files/dsfont.ttf" />
+
+	<file src="speedometer/client/files/2/bg.png" />
+	<file src="speedometer/client/files/2/arrow.png" />
+	<file src="speedometer/client/files/2/indicatorl.png" />
+	<file src="speedometer/client/files/2/indicatorr.png" />
+	<file src="speedometer/client/files/2/on_indicatorl.png" />
+	<file src="speedometer/client/files/2/on_indicatorr.png" />
+	<file src="speedometer/client/files/2/on_lights.png" />
+	<file src="speedometer/client/files/2/lights.png" />
+	<file src="speedometer/client/files/2/on_handbrake.png" />
+	<file src="speedometer/client/files/2/handbrake.png" />
+	<file src="speedometer/client/files/2/engine1.png" />
+	<file src="speedometer/client/files/2/engine2.png" />
+	<file src="speedometer/client/files/2/engine3.png" />
+	<file src="speedometer/client/files/2/distance.png" />
+	<file src="speedometer/client/files/2/fuelbg.png" />
+	<file src="speedometer/client/files/2/fuelcross.png" />
+	<file src="speedometer/client/files/2/fuel.png" />
+	<file src="speedometer/client/files/2/on_fuel.png" />
+
+	<file src="speedometer/client/files/3/bg.png" />
+	<file src="speedometer/client/files/3/arrow.png" />
+	<file src="speedometer/client/files/3/indicatorl.png" />
+	<file src="speedometer/client/files/3/indicatorr.png" />
+	<file src="speedometer/client/files/3/on_indicatorl.png" />
+	<file src="speedometer/client/files/3/on_indicatorr.png" />
+	<file src="speedometer/client/files/3/on_lights.png" />
+	<file src="speedometer/client/files/3/lights.png" />
+	<file src="speedometer/client/files/3/on_handbrake.png" />
+	<file src="speedometer/client/files/3/handbrake.png" />
+	<file src="speedometer/client/files/3/engine1.png" />
+	<file src="speedometer/client/files/3/engine2.png" />
+	<file src="speedometer/client/files/3/engine3.png" />
+	<file src="speedometer/client/files/3/distance.png" />
+	<file src="speedometer/client/files/3/fuelbg.png" />
+	<file src="speedometer/client/files/3/fuelcross.png" />
+	<file src="speedometer/client/files/3/fuel.png" />
+	<file src="speedometer/client/files/3/on_fuel.png" />
+
+	<script src="speedometer/client/main.luac" type="client" cache="true" />
+
+	<export function="colorPlayer" />
+	<export function="startNewsWindow" />
+
+	<export function="setSpeedoSize" type="client" />
+
+	<export function="setStatus" type="client" />
+	<export function="setStatusState" type="client" />
+
+	<min_mta_version server="1.3.0-9.04563" client="1.3.2" />
+</meta>

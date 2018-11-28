@@ -1,0 +1,7 @@
+<meta>
+	<oop>true</oop>
+	<script src="client/streamer.luac" type="client" cache="true" />
+
+	<export function="create3DSound" type="client" />
+	<export function="destroy3DSound" type="client" />
+</meta>

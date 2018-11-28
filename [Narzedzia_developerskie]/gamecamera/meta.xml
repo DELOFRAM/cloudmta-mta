@@ -1,0 +1,5 @@
+<meta>
+    <min_mta_version client="1.4.1" server="1.4.1" />
+	<script src="Camera.lua" type="client"/>
+	<script src="CameraPosition.lua" type="client" />	
+</meta>

@@ -1,0 +1,9 @@
+<meta>
+	<oop>true</oop>
+	<script src="core.lua" />
+	<script src="client.lua" type="client" cache="false" />
+
+	<aclrequest>
+		<right name="function.shutdown" access="true" />
+	</aclrequest>
+</meta>

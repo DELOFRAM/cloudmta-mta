@@ -1,0 +1,9 @@
+<meta>
+	<oop>true</oop>
+	<script src="server/main.lua" />
+	<export function="addNewHotel" />
+	<export function="getPlayerHotels" />
+	<export function="loadMemberHotels" />
+	<export function="getHotelFromID" />
+	<export function="getPlayerHotel" />
+</meta>

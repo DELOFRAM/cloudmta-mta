@@ -1,0 +1,62 @@
+<meta>
+	<script src="client/dash_c.lua" type="client" />
+	<script src="server/dash_s.lua" type="server" />
+	
+	<file src="files/lato.TTF" />
+	
+	<file src="files/blurV.fx" />
+	<file src="files/blurH.fx" />
+	
+	<file src="files/background.png" />
+	<file src="files/section_profil.png" />
+	<file src="files/def.png" />
+	
+	<file src="files/skins/1.png" />
+	<file src="files/skins/2.png" />
+	<file src="files/skins/7.png" />
+	<file src="files/skins/11.png" />
+	<file src="files/skins/12.png" />
+	<file src="files/skins/13.png" />
+	<file src="files/skins/19.png" />
+	<file src="files/skins/20.png" />
+	<file src="files/skins/21.png" />
+	<file src="files/skins/23.png" />
+	<file src="files/skins/26.png" />
+	<file src="files/skins/29.png" />
+	<file src="files/skins/40.png" />
+	<file src="files/skins/46.png" />
+	<file src="files/skins/47.png" />
+	<file src="files/skins/56.png" />
+	<file src="files/skins/59.png" />
+	<file src="files/skins/60.png" />
+	<file src="files/skins/65.png" />
+	<file src="files/skins/66.png" />
+	<file src="files/skins/72.png" />
+	<file src="files/skins/76.png" />
+	<file src="files/skins/79.png" />
+	<file src="files/skins/85.png" />
+	<file src="files/skins/91.png" />
+	<file src="files/skins/93.png" />
+	<file src="files/skins/95.png" />
+	<file src="files/skins/100.png" />
+	<file src="files/skins/101.png" />
+	<file src="files/skins/129.png" />
+	<file src="files/skins/138.png" />
+	<file src="files/skins/141.png" />
+	<file src="files/skins/148.png" />
+	<file src="files/skins/150.png" />
+	<file src="files/skins/169.png" />
+	<file src="files/skins/172.png" />
+	<file src="files/skins/179.png" />
+	<file src="files/skins/184.png" />
+	<file src="files/skins/185.png" />
+	<file src="files/skins/190.png" />
+	<file src="files/skins/191.png" />
+	<file src="files/skins/192.png" />
+	<file src="files/skins/193.png" />
+	<file src="files/skins/194.png" />
+	<file src="files/skins/195.png" />
+	<file src="files/skins/233.png" />
+	<file src="files/skins/299.png" />
+	<file src="files/skins/310.png" />
+</meta>

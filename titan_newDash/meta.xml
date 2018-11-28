@@ -1,0 +1,45 @@
+<meta>
+    <oop>true</oop>
+    <script src="client/main.luac" type="client" cache="true" />
+    <script src="client/walkingStyle.luac" type="client" cache="true" />
+    <script src="server/main.lua" />
+    
+    <file src="client/images/top-bar.png" />
+    <file src="client/images/main.png" />
+    <file src="client/images/divider.png" />
+    <file src="client/images/char-table.png" />
+    
+    <file src="client/images/icon-achievments.png" />
+    <file src="client/images/icon-friends.png" />
+    <file src="client/images/icon-char.png" />
+    <file src="client/images/icon-logs.png" />
+    <file src="client/images/icon-settings.png" />
+    
+    <file src="client/images/achievments/1.png" />
+    <file src="client/images/achievments/2.png" />
+    <file src="client/images/achievments/3.png" />
+    <file src="client/images/achievments/4.png" />
+    <file src="client/images/achievments/5.png" />
+    <file src="client/images/achievments/6.png" />
+    <file src="client/images/achievments/7.png" />
+    
+    <file src="client/images/default_large.png" />
+    
+    <file src="client/images/switch_off.png" />
+    <file src="client/images/switch_on.png" />
+    
+    <file src="client/images/online-dot.png" />
+    
+    <file src="client/images/blurH.fx" />
+    <file src="client/images/blurV.fx" />
+    
+    <file src="client/fonts/MyRiadPro.otf" />
+    <file src="client/fonts/OpenSans.ttf" />
+    
+    <export function="setSettings" />
+    
+    <aclrequest>
+        <right name="function.fetchRemote" access="true" />
+    </aclrequest>
+    <min_mta_version server="1.3.4-0.00000" client="1.5.2-9.07903"></min_mta_version>
+</meta>

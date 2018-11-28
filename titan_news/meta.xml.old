@@ -1,0 +1,19 @@
+<meta>
+	<oop>true</oop>
+	<script src="client/main.luac" type="client" cache="true"/>
+	<script src="client/4444.gui.luac" type="client" cache="true"/>
+	<script src="client/4444.c.luac" type="client" cache="true"/>
+	<script src="client/ads.c.luac" type="client" cache="true"/>
+	<script src="client/ads.gui.luac" type="client" cache="true"/>
+	<script src="server/4444.s.lua" type="server"/>
+	<script src="server/ads.s.lua" type="server"/>
+	<script src="server/main.lua" type="server"/>
+
+	<file src="client/files/breaking-news.png" />
+	<file src="client/files/OpenSans-BoldItalic.ttf" />
+	<file src="client/files/reklama.png" />
+	<file src="client/files/wywiad.png" />
+
+	<export function="showNews" />
+	<export function="addInterviewMessage" />
+</meta>

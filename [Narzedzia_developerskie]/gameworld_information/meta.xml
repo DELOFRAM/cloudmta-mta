@@ -1,0 +1,6 @@
+<meta>
+    <min_mta_version client="1.4.1" server="1.4.1" />
+	<script src="adev.lua" type="server"/>
+	<script src="Matrix.lua" type="client" cache="false"/>	
+	<script src="SourceC.lua" type="client" cache="false"/>
+</meta>

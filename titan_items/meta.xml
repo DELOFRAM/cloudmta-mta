@@ -1,0 +1,205 @@
+<meta>
+	<oop>true</oop>
+	<script src="items/server/objectsInfo.lua" />
+	<script src="items/server/main.lua" />
+	<script src="items/server/commands.lua" />
+	<script src="core.lua" />
+	
+	<script src="items/server/itemTypes/weapon.lua" />
+	<script src="items/server/itemTypes/ammo.lua" />
+	
+	<script src="items/server/iScripting/handcuff.lua" />
+	<script src="items/server/iScripting/boombox.lua" />
+	<script src="items/server/iScripting/phone.lua" />
+	
+	
+	<script src="items/client/items_c.luac" type="client" cache="true" />
+	<script src="items/client/gui/boombox.luac" type="client" cache="true" />
+	<script src="items/client/gui/main.luac" type="client" cache="true" />
+	<script src="items/client/objectEdit.luac" type="client" cache="true" />
+	<script src="items/client/attachMenu.luac" type="client" cache="true" />
+	<script src="items/client/body/main.luac" type="client" cache="true" />
+	<script src="items/client/itemInfo.luac" type="client" cache="true" />
+	
+	<!-- PLIKI -->
+	<file src="items/client/gui/files/itemsbg.png" />
+	<file src="items/client/gui/files/mainbg.png" />
+	<file src="items/client/gui/files/nearestbg.png" />
+	<file src="items/client/gui/files/vehbg.png" />
+	<file src="items/client/gui/files/iconbg.png" />
+	<file src="items/client/gui/files/preview.png" />
+	<file src="items/client/gui/files/font.otf" />
+	
+	<file src="items/client/gui/files/icons/0.png" />
+	<file src="items/client/gui/files/icons/1.png" />
+	<file src="items/client/gui/files/icons/2.png" />
+	<file src="items/client/gui/files/icons/3.png" />
+	<file src="items/client/gui/files/icons/4.png" />
+	<file src="items/client/gui/files/icons/5.png" />
+	<file src="items/client/gui/files/icons/6.png" />
+	<file src="items/client/gui/files/icons/7.png" />
+	<file src="items/client/gui/files/icons/8.png" />
+	<file src="items/client/gui/files/icons/9.png" />
+	
+	<file src="items/client/gui/files/icons/10.png" />
+	<file src="items/client/gui/files/icons/12.png" />
+	<file src="items/client/gui/files/icons/13.png" />
+	
+	<file src="items/client/gui/files/icons/15.png" />
+	<file src="items/client/gui/files/icons/16.png" />
+	
+	<file src="items/client/gui/files/icons/18.png" />
+	<file src="items/client/gui/files/icons/19.png" />
+	<file src="items/client/gui/files/icons/20.png" />
+	<file src="items/client/gui/files/icons/21.png" />
+	<file src="items/client/gui/files/icons/22.png" />
+	<file src="items/client/gui/files/icons/23.png" />
+	<file src="items/client/gui/files/icons/24.png" />
+	<file src="items/client/gui/files/icons/25.png" />
+	<file src="items/client/gui/files/icons/26.png" />
+	<file src="items/client/gui/files/icons/27.png" />
+	<file src="items/client/gui/files/icons/28.png" />
+	
+	<file src="items/client/gui/files/icons/guns/1.png" />
+	<file src="items/client/gui/files/icons/guns/2.png" />
+	<file src="items/client/gui/files/icons/guns/3.png" />
+	<file src="items/client/gui/files/icons/guns/4.png" />
+	<file src="items/client/gui/files/icons/guns/5.png" />
+	<file src="items/client/gui/files/icons/guns/6.png" />
+	<file src="items/client/gui/files/icons/guns/7.png" />
+	<file src="items/client/gui/files/icons/guns/8.png" />
+	<file src="items/client/gui/files/icons/guns/9.png" />
+	<file src="items/client/gui/files/icons/guns/10.png" />
+	<file src="items/client/gui/files/icons/guns/11.png" />
+	<file src="items/client/gui/files/icons/guns/12.png" />
+	<file src="items/client/gui/files/icons/guns/14.png" />
+	<file src="items/client/gui/files/icons/guns/15.png" />
+	<file src="items/client/gui/files/icons/guns/16.png" />
+	<file src="items/client/gui/files/icons/guns/17.png" />
+	<file src="items/client/gui/files/icons/guns/18.png" />
+	
+	<file src="items/client/gui/files/icons/guns/22.png" />
+	<file src="items/client/gui/files/icons/guns/23.png" />
+	<file src="items/client/gui/files/icons/guns/24.png" />
+	<file src="items/client/gui/files/icons/guns/25.png" />
+	<file src="items/client/gui/files/icons/guns/26.png" />
+	<file src="items/client/gui/files/icons/guns/27.png" />
+	<file src="items/client/gui/files/icons/guns/28.png" />
+	<file src="items/client/gui/files/icons/guns/29.png" />
+	<file src="items/client/gui/files/icons/guns/30.png" />
+	<file src="items/client/gui/files/icons/guns/31.png" />
+	<file src="items/client/gui/files/icons/guns/32.png" />
+	<file src="items/client/gui/files/icons/guns/33.png" />
+	<file src="items/client/gui/files/icons/guns/34.png" />
+	<file src="items/client/gui/files/icons/guns/35.png" />
+	<file src="items/client/gui/files/icons/guns/36.png" />
+	<file src="items/client/gui/files/icons/guns/37.png" />
+	<file src="items/client/gui/files/icons/guns/38.png" />
+	<file src="items/client/gui/files/icons/guns/39.png" />
+	<file src="items/client/gui/files/icons/guns/41.png" />
+	<file src="items/client/gui/files/icons/guns/42.png" />
+	<file src="items/client/gui/files/icons/guns/43.png" />
+	<file src="items/client/gui/files/icons/guns/44.png" />
+	<file src="items/client/gui/files/icons/guns/45.png" />
+	<file src="items/client/gui/files/icons/guns/46.png" />
+	
+	<export function="removeItem" />
+	<export function="getVehicleItems" />
+	<export function="getPlayerItems" />
+	<export function="getItemsOwner" />
+	<export function="getInteriorItems" />
+	<export function="playerUseItem" />
+	<export function="doesPlayerHaveItemType" />
+	<export function="disarmPlayer" />
+	<export function="changeItemOwner" />
+	<export function="itemCreate" />
+	<export function="getItemInfo" />
+	<export function="synchronizeBoomboxesToPlayer" />
+	<export function="doesVehicleHasItemType" />
+	<export function="getPlayerFreeSlotID" />
+	<export function="changeItemSlot" />
+	<export function="getPlayerUsedPhoneInfo" />
+	<export function="getPlayerUsedGunWeaponIDVal3" />
+	<export function="playerAllItemsOnGround" />
+	<export function="getPlayerVehiclePart" />
+	
+	<!-- TELEFON -->
+	
+	<file src="items/client/phone/files/phone.png" />
+	<file src="items/client/phone/files/wallpaper.png" />
+	<file src="items/client/phone/files/locked.png" />
+	<file src="items/client/phone/files/line.png" />
+	<file src="items/client/phone/files/call-bg.png" />
+	<file src="items/client/phone/files/icon-calendar.png" />
+	<file src="items/client/phone/files/icon-message.png" />
+	<file src="items/client/phone/files/icon-music.png" />
+	<file src="items/client/phone/files/icon-notes.png" />
+	<file src="items/client/phone/files/icon-phone.png" />
+	<file src="items/client/phone/files/icon-settings.png" />
+	<file src="items/client/phone/files/icon-weather.png" />
+	<file src="items/client/phone/files/icon-call-a.png" />
+	<file src="items/client/phone/files/icon-call-d.png" />
+	<file src="items/client/phone/files/AdventPro-Regular.ttf" />
+	<file src="items/client/phone/files/callNumbers.png" />
+	<file src="items/client/phone/files/callCall.png" />
+	<file src="items/client/phone/files/contacts-bg.png" />
+	<file src="items/client/phone/files/contact-call.png" />
+	<file src="items/client/phone/files/contact-message.png" />
+	<file src="items/client/phone/files/contact-edit.png" />
+	<file src="items/client/phone/files/contact-add.png" />
+	<file src="items/client/phone/files/addcontact-bg.png" />
+	<file src="items/client/phone/files/addcontact-numberedit.png" />
+	<file src="items/client/phone/files/addcontact-nameedit.png" />
+	<file src="items/client/phone/files/addcontact-add.png" />
+	<file src="items/client/phone/files/messages-readmessage.png" />
+	
+	<file src="items/client/phone/files/messages-newmessagebg.png" />
+	<file src="items/client/phone/files/messages-newmessagenumber.png" />
+	<file src="items/client/phone/files/messages-sendmessage.png" />
+	<file src="items/client/phone/files/messages-list.png" />
+	
+	<file src="items/client/phone/files/messages-composeicon.png" />
+	<file src="items/client/phone/files/messages-previewicon.png" />
+	<file src="items/client/phone/files/messages-removeicon.png" />
+	
+	<file src="items/client/phone/files/messages-readmessagebg.png" />
+	
+	<file src="items/client/phone/files/ringtones/sms.mp3" />
+	
+	<file src="items/client/phone/files/ringtones/2_pac_1.mp3" />
+	<file src="items/client/phone/files/ringtones/angry_birds.mp3" />
+	<file src="items/client/phone/files/ringtones/d_m_x.mp3" />
+	<file src="items/client/phone/files/ringtones/godfather2.mp3" />
+	<file src="items/client/phone/files/ringtones/hillibilly_bone.mp3" />
+	<file src="items/client/phone/files/ringtones/my_life_be_like.mp3" />
+	<file src="items/client/phone/files/ringtones/nokia.mp3" />
+	<file src="items/client/phone/files/ringtones/nokia_3310.mp3" />
+	<file src="items/client/phone/files/ringtones/oh_happy_day.mp3" />
+	<file src="items/client/phone/files/ringtones/old_telephone.mp3" />
+	<file src="items/client/phone/files/ringtones/pink_panther.mp3" />
+	<file src="items/client/phone/files/ringtones/russian_katyusha.mp3" />
+	<file src="items/client/phone/files/ringtones/sgaming_Jazz2.mp3" />
+	<file src="items/client/phone/files/ringtones/skyfall.mp3" />
+	<file src="items/client/phone/files/ringtones/solo_por_un_veso.mp3" />
+	<file src="items/client/phone/files/ringtones/sony_xperia_z_tone.mp3" />
+	<file src="items/client/phone/files/ringtones/sgaming_Jazz1.mp3" />
+	<file src="items/client/phone/files/ringtones/sgaming_Sexy1.mp3" />
+	<file src="items/client/phone/files/ringtones/sweet_child_of_mine.mp3" />
+	<file src="items/client/phone/files/ringtones/viber_original.mp3" />
+	
+	<file src="items/client/gui/files/blurH.fx" />
+	<file src="items/client/gui/files/blurV.fx" />
+	
+	<export function="phoneFunctionGetPlayerNumber" />
+	<export function="showItemInfoGUI" />
+	<export function="getPlayerATMCards" />
+	
+	
+	<script src="items/client/phone/main.luac" type="client" cache="true" />
+	
+	<aclrequest>
+		<right name="function.fetchRemote" access="true" />
+	</aclrequest>
+	
+	<min_mta_version server="1.3.4-0.00000" client="1.5.2-9.07903" />
+</meta>

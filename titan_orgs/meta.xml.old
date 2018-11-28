@@ -1,0 +1,78 @@
+<meta>
+	<oop>true</oop>
+	<script src="orgs/server/dmv/dmv.lua" />
+	<script src="orgs/core.lua" />
+	<script src="orgs/server/orgs_s.lua" />
+	<script src="orgs/server/commands.lua" />
+	<script src="orgs/server/kurier/main.lua" />
+	<script src="orgs/server/police/tireBlock.lua" />
+	<script src="orgs/server/dial911.lua" />
+	<script src="orgs/server/searchPlayer.lua" />
+
+	<!--SZPITAL -->
+	<script src="orgs/server/hospital/hos_c.lua" type="client" />
+	<script src="orgs/server/hospital/hos_s.lua" type="server" />
+	
+	<file src="orgs/server/hospital/files/status.png" />
+	<file src="orgs/server/hospital/files/status_obrys.png" />
+
+	<!--SZPITAL END-->
+	
+	<script src="orgs/client/healScript.luac" type="client" cache="true" />
+	<script src="orgs/client/orderMenu.luac" type="client" cache="true" />
+	<script src="orgs/client/deliverMenu.luac" type="client" cache="true" />
+	<script src="orgs/client/groupInfo.luac" type="client" cache="true" />
+	<script src="orgs/server/police/tireBlock_c.luac" type="client" cache="true" />
+	<script src="orgs/client/alarmPhone.luac" type="client" cache="true" />
+	<script src="orgs/client/dialsMenu.luac" type="client" cache="true" />
+	<script src="orgs/client/searchPlayer.luac" type="client" cache="true" />
+	<script src="orgs/client/vehiclesMenu.luac" type="client" cache="true" />
+	<script src="orgs/client/groupMenu.luac" type="client" cache="true" />
+	<script src="orgs/client/blockadesCreate.luac" type="client" cache="true" />
+	<script src="orgs/client/giveMenu.luac" type="client" cache="true" />
+	<!--<script src="casual/mechanic/server/main.lua" />-->
+
+	<export function="PlayerHeal" />
+	<export function="PlayerGiveItem" />
+
+	<export function="loadGroupsForPlayer" />
+	<export function="addPlayerToGroup" />
+	<export function="removePlayerFromGroup" />
+	<export function="setPlayerDuty" />
+	<export function="sendGroupICMessage" />
+	<export function="sendGroupOOCMessage" />
+	<export function="sendDepoMessage" />
+	<export function="getDefaultGroupRank" />
+	<export function="getPlayerGroups" />
+	<export function="getPlayerDuty" />
+	<export function="getPlayerDutyInGroup" />
+	<export function="getGroupInfo" />
+	<export function="getPlayerGroupFromSlot" />
+	<export function="getGroupColor" />
+	<export function="getFreePlayerGroupSlot" />
+	<export function="getAllGroups" />
+	<export function="doesPlayerHaveGroup" />
+	<export function="doesPlayerHaveGroupLeader" />
+	<export function="isGroup" />
+	<export function="saveGroupEdit" />
+	<export function="createGroup" />
+	<export function="removeGroup" />
+	<export function="changeGroupData" />
+	<export function="getAllGroups" />
+	<export function="showGroupInfoTable" />
+	<export function="doesPlayerCanDepoChat" />
+	<export function="doesGroupHavePerm" />
+	<export function="doesPlayerHavePerm" />
+	<export function="getGroupsToDashboard" />
+	<export function="createAlarmPhoneGUI" />
+	<export function="getArrestData" />
+	<export function="createNewArrest" />
+	<export function="removeArrest" />
+	<export function="getArrestsDataFromInterior" />
+	<export function="getAvailableOrders" />
+	<export function="getPlayerDutyTime" />
+	<export function="reloadPlayerGroup" http="true" />
+	<export function="isPlayerInInterior" />
+	<export function="changePlayerRank" />
+	<export function="giveGroupMoney" />
+</meta>

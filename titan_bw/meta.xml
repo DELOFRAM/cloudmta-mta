@@ -1,0 +1,17 @@
+<meta>
+    <info name="Titan Engine - System BW" author="Kubas" type="misc" version="1.0" />
+    <oop>true</oop>
+    <file src="client/font/font.ttf" />
+    
+    <script src="core.lua" />
+    <script src="server/bw_s.lua" />
+    <script src="client/bw_c.luac" type="client" cache="true" />
+    
+    <export function="setPlayerBW" />
+    <export function="doesPlayerHaveBW" />
+    <export function="turnBWOff" />
+    <aclrequest>
+        <right name="function.kickPlayer" access="true" />
+    </aclrequest>
+    <min_mta_version server="1.3.4-0.00000" client="1.5.2-9.07903"></min_mta_version>
+</meta>

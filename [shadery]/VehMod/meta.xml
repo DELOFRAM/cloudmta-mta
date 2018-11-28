@@ -1,0 +1,7 @@
+<meta>
+
+	<script src="client.lua" type="client"/>
+		<file src="mod.dff" type="server"/>
+		<file src="mod.txd" type="server"/>
+		
+</meta>

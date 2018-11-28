@@ -1,0 +1,18 @@
+<meta>
+	<oop>true</oop>
+
+	<script src="client/main.luac" type="client" cache="true" />
+	<script src="server/main.lua" />
+
+	<file src="client/files/inputBg.png" />
+	<file src="client/files/mainBg.png" />
+	<file src="client/files/scroll.png" />
+	<file src="client/files/scroll_dot.png" />
+
+	<export function="toggleChat" type="client" />
+
+	<export function="sendMessage" />
+	<aclrequest>
+		<right name="function.executeCommandHandler" access="true" />
+	</aclrequest>
+</meta>

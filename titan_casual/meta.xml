@@ -1,0 +1,14 @@
+<meta>
+	<oop>true</oop>
+
+	<script src="client/choose.lua" type="client" cache="false" />
+
+	<script src="client/pizzaDeliver.lua" type="client" cache="false" />
+
+	<script src="server/main.lua" />
+	<script src="server/pizzaDeliver/main.lua" />
+
+	<export function="getPlayerCasualWork" />
+	<export function="pizzaDeliverOnVehicleEnter" />
+	<export function="pizzaDeliverOnVehicleExit" />
+</meta>

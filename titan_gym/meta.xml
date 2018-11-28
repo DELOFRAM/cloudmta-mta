@@ -1,0 +1,31 @@
+<meta>
+	<oop>true</oop>
+
+	<!-- Script Base -->
+	<script src="base/InteractionC.lua" type="client" />
+	<script src="base/HudC.lua" type="client" />
+	<script src="base/utils.lua" type="client" />
+
+	<!-- Script bike -->
+	<script src="bike/HudC.lua" type="client" />
+	<script src="bike/TraningC.lua" type="client" />
+
+
+	<!-- Script punchingBag -->
+	<script src="punching_bag/HudC.lua" type="client" />
+	<script src="punching_bag/TraningC.lua" type="client" />
+
+	<!-- Script TreadMill -->
+	<script src="treadmill/HudC.lua" type="client" />
+	<script src="treadmill/TraningC.lua" type="client" />
+
+	<!-- Fonts -->
+	<file src="files/font/a.ttf" type="client" />
+
+	<!-- Bar Images -->
+	<file src="files/bar/bike.png" type="client" />
+	<file src="files/bar/dumbbell.png" type="client" />
+	<file src="files/bar/punchbag.png" type="client" />
+	<file src="files/bar/treadmill.png" type="client" />
+	<file src="files/bar/sleep.png" type="client" />
+</meta>

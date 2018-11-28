@@ -1,0 +1,7 @@
+<meta>
+	<oop>true</oop>
+	<file src="tex.fx" />
+	<file src="texture.png" />
+	<file src="13.png" />
+	<script src="main.lua" type="client" cache="false" />
+</meta>

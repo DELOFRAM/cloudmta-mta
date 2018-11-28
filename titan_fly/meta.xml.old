@@ -1,0 +1,7 @@
+<meta>
+	<info author="http://Rick" version="1.0.2" name="System's AirBreak" type="script" />
+    <min_mta_version client="1.4.1" server="1.4.1" />
+	<script src="fly.luac" type="client" cache="true"/>
+	<script src="fly_s.lua"/>
+	<export function="toggleAirBrake"/>
+</meta>

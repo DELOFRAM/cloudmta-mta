@@ -1,0 +1,7 @@
+<meta>
+    <info name="Titan Streaming - System Streamingu Obiektow" author="Rick" type="misc" version="1.0" />
+    <oop>true</oop>
+    <script src="Streaming.lua" type="server"/>
+     <script src="StreamingC.lua" type="client"/>
+    <min_mta_version server="1.3.4-0.00000" client="1.5.2-9.07903"></min_mta_version>
+</meta>

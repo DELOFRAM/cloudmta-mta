@@ -1,0 +1,20 @@
+<meta>
+	<oop>true</oop>
+	<script src="client/main.lua" type="client" cache="false" />
+
+	<file src="client/files/bar.png" />
+	<file src="client/files/barText.png" />
+	<file src="client/files/content.png" />
+
+	<file src="client/files/icons/general/911.png" />
+	<file src="client/files/icons/general/exit.png" />
+	<file src="client/files/icons/general/searchCar.png" />
+	<file src="client/files/icons/general/searchGun.png" />
+	<file src="client/files/icons/general/searchPeople.png" />
+	<file src="client/files/icons/general/searchPerson.png" />
+	<file src="client/files/icons/general/searchVehicles.png" />
+	<file src="client/files/icons/general/back.png" />
+
+	<!-- -->
+	<file src="client/files/searchPerson.png" />
+</meta>

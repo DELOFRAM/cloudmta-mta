@@ -1,0 +1,9 @@
+<meta>
+	<script src="client/taxi_c.luac" type="client" />
+	<script src="server/taxi_s.lua" type="server" />
+	
+	<file src="client/files/bg.png" />
+	<file src="client/files/myriardpro.OTF" />
+
+	<export function="startTaxi" type="server" />
+</meta>

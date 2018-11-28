@@ -1,0 +1,42 @@
+<meta>
+	<oop>true</oop>
+	<script src="core.lua" />
+	<script src="core_c.luac" type="client" cache="true" />
+	<script src="firstperson.luac" type="client" cache="true" />
+	<script src="cursor.luac" type="client" cache="true" />
+	<script src="vehicle.lua" type="shared" />
+	<script src="controlPlayer.luac" type="client"/>
+
+	<script src="spawn_c.lua" type="client" cache="false" />
+	
+	<export function="string.random" />
+	<export function="generateGunID" />
+	<export function="generatePhoneNumber" />
+	<export function="addCloudPoints" />
+	<export function="generateCarPlate" />
+	<export function="getAdminColor" />
+	<export function="randomSpawn" />
+	<export function="findRotation" />
+	<export function="getXYZInFrontOfPlayer" />
+	<export function="generateAccountID" />
+	<export function="loadPlayerAfterSpawn" />
+	<export function="loadPlayerBeforeSpawn" />
+	<export function="generateSSN" />
+	
+	<export function="playerSpawn" />
+	<export function="getAdminRank" />
+	<export function="getAdminRank" type="client" />
+	<export function="showTitanCursor" type="client" />
+	
+	<export function="httpPenalty" http="true" />
+	<export function="httpAddMoney" http="true" />
+	<export function="httpReloadVehicle" http="true" />
+	<export function="httpRemoveFromGroup" http="true" />
+	
+	<export function="isVehicleEmpty" type="shared" />
+	
+	<aclrequest>
+		<right name="function.kickPlayer" access="true" />
+	</aclrequest>
+	<min_mta_version server="1.3.4-0.00000" client="1.5.2-9.07903"></min_mta_version>
+</meta>

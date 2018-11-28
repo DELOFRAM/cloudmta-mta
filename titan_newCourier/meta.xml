@@ -1,0 +1,12 @@
+<meta>
+    <oop>true</oop>
+    
+    <script src="server/main.lua" />
+    
+    <script src="client/magazine.luac" type="client" cache="true" />
+    <script src="client/anim.luac" type="client" cache="true" />
+    <aclrequest>
+        <right name="function.executeCommandHandler" access="true" />
+    </aclrequest>
+    <min_mta_version server="1.3.4-0.00000" client="1.5.2-9.07903"></min_mta_version>
+</meta>

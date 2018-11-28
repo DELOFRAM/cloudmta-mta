@@ -1,0 +1,5 @@
+<meta>
+	<info name="My Test Script" author="Kubas" description="My first resource with PHP SDK" version="1.0.0" type="script"></info>
+	<script src="server/main.lua" />
+	<export function="doPrint" http="true" />
+</meta>

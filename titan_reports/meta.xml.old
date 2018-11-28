@@ -1,0 +1,9 @@
+<meta>
+	<oop>true</oop>
+	<script src="client/player.luac" type="client" cache="true" />
+	<script src="client/admin.luac" type="client" cache="true" />
+
+	<script src="server/main.lua" />
+
+	<export function="onPlayerJoinToServer" />
+</meta>

@@ -1,0 +1,8 @@
+<meta>
+	<info name="Titan Engine" />	
+	<oop>true</oop>
+	<script src="client/main.luac" type="client" cache="true" />
+	<script src="server/main.lua" />
+
+	<export function="resetPlayerDamage" />
+</meta>

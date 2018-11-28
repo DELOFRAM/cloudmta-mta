@@ -1,0 +1,21 @@
+<meta>
+	<oop>true</oop>
+
+	<script src="client/create.luac" type="client" cache="true" />
+	<script src="client/main.luac" type="client" cache="true" />
+
+	<script src="server/main.lua" />
+
+	<export function="getSphereInfo" />
+	<export function="isSphere" />
+	<export function="addSphereMember" />
+	<export function="removeSphereMember" />
+	<export function="doesOwnerHasPerm" />
+	<export function="getSphereFlags" />
+	<export function="getPlayerZone" />
+	<export function="removeSphere" />
+	<export function="setSphereData" />
+	<export function="doesSphereHasFlag" />
+	<export function="getSphereMaxObjects" />
+	<export function="changeSphereObjectsLimit" />
+</meta>

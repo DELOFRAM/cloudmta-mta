@@ -1,0 +1,81 @@
+<meta>
+    <info name="Titan Engine - System administratora" author="Kubas" type="misc" version="1.0" />
+    <oop>true</oop>
+    <script src="core.lua" />
+    
+    <script src="commands/aduty.lua" />
+    <script src="commands/adminChat.lua" />
+    <script src="commands/goto.lua" />
+    <script src="commands/bw.lua" />
+    <script src="commands/ap.lua" />
+    <script src="commands/aset.lua" />
+    <script src="commands/gethere.lua" />
+    <script src="commands/ad.lua" />
+    <script src="commands/av.lua" />
+    <script src="commands/toint.lua" />
+    <script src="commands/globdo.lua" />
+    <script src="commands/glob.lua" />
+    <script src="commands/akick.lua" />
+    <script src="commands/afly.lua" />
+    <script src="commands/aban.lua" />
+    <script src="commands/as.lua" />
+    <script src="commands/awarn.lua" />
+    <script src="commands/ablock.lua" />
+    <script src="commands/ag.lua" />
+    <script src="commands/aj.lua" />
+    <script src="commands/texts.lua" />
+    <script src="commands/ahelp.lua" />
+    <script src="commands/admins.lua" />
+    <script src="commands/aslap.lua" />
+    <script src="commands/aspec.lua" />
+    <script src="commands/amaster.lua" />
+    <script src="commands/aareszt.lua" />
+    <script src="commands/abus.lua" />
+    <script src="commands/atrash.lua" />
+    <script src="commands/stats.lua" />
+    <script src="commands/ao.lua" />
+    <script src="commands/ainv.lua" />
+    <script src="commands/tpt.lua" />
+    <script src="commands/aped.lua" />
+    <script src="commands/ares.lua" />
+    <script src="commands/afck.lua" />
+    <script src="commands/aserial.lua" />
+    <script src="commands/agun.lua" />
+    
+    
+    <script src="client/editSphere.luac" type="client" cache="true" />
+    <script src="client/ahelpGUI.luac" type="client" cache="true" />
+    <script src="client/adminsGUI.luac" type="client" cache="true" />
+    <script src="client/listTexts.luac" type="client" cache="true" />
+    <script src="client/assignVehicle.luac" type="client" cache="true" />
+    <script src="client/editGroup.luac" type="client" cache="true" />
+    <script src="client/chooseColor.luac" type="client" cache="true" />
+    <script src="client/listGroup.luac" type="client" cache="true" />
+    <script src="client/mapTeleport.luac" type="client" cache="true" />
+    <script src="client/editAdmin.luac" type="client" cache="true" />
+    <script src="client/aareszt.luac" type="client" cache="true" />
+    <script src="client/statsGUI.luac" type="client" cache="true" />
+    <script src="client/resourcesGUI.luac" type="client" cache="true" />
+    <script src="server/assignVehicle.lua" />
+    <script src="server/chooseColor.lua" />
+    <script src="server/editGroup.lua" />
+    
+    <file src="client/map.jpg" />
+    
+    <export function="doesPlayerHaveAdminDuty" />
+    <export function="isPlayerAdmin" />
+    <export function="getPlayerAdminLevel" />
+    <export function="getAvailableAdmins" />
+    <export function="getAdminColor" />
+    <export function="doesAdminHavePerm" />
+    
+    <export function="assignColor" type="client" />
+    
+    <export function="savePenalty" />
+    
+    <aclrequest>
+        <right name="function.kickPlayer" access="true" />
+        <right name="function.setServerPassword" access="true" />
+    </aclrequest>
+    <min_mta_version server="1.3.4-0.00000" client="1.5.2-9.07903"></min_mta_version>
+</meta>

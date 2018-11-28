@@ -1,0 +1,14 @@
+<meta>
+	<oop>true</oop>
+	<script src="server/main.lua" />
+	<export function="chatMessage" />
+	<export function="groupMessageIC" />
+	<export function="groupMessageOOC" />
+	<export function="adminLog" />
+	<export function="adminChatLog" />
+	<export function="createLoginLog" />
+	<export function="playerWhisperLog" />
+	<export function="commandLog" />
+	<export function="saveLoginLogQuit" />
+	<export function="playerLog" />
+</meta>

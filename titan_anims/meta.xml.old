@@ -1,0 +1,10 @@
+<meta>
+	<oop>true</oop>
+
+	<script src="client/moving.luac" type="client" cache="true" />
+	<script src="client/gui.luac" type="client" cache="true" />
+	<script src="server/main.lua" />
+
+	<export function="playerStartAnim" />
+	<export function="playerStopAnim" />
+</meta>

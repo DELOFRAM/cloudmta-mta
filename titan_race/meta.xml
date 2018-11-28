@@ -1,0 +1,28 @@
+<meta>
+	<script src="server/race.lua" />
+	<script src="server/core.lua" />
+	<script src="client/race.lua" type="client" />
+	<script src="client/create.lua" type="client" />
+
+	<export function="ClassRace" type="shared" />
+	<export function="showInfoBoxClient" />
+	<export function="isPlayerInGroupType" />
+	<export function="sendWarningMessageServer" />
+	<export function="sendMessageServer" />
+	<export function="getPlayerByID" />
+	<export function="sendMessage" />
+	<export function="isPlayerInGroupType" type="client" />
+	<export function="sendWarningMessageServer" type="client" />
+	<export function="sendMessageServer" type="client" />
+	<export function="getPlayerByID" type="client" />
+	<export function="showInfoBoxClient" type="client" />
+	<export function="sendMessage" type="client" />
+	<aclrequest>
+	<right name="function.isPlayerInGroupType" access="true" />
+	  <right name="function.sendWarningMessageServer" access="true" />
+	  <right name="function.sendMessageServer" access="true" />
+	<right name="function.getPlayerByID" access="true" />
+	  <right name="function.showInfoBoxClient" access="true" />
+	  <right name="function.sendMessage" access="true" />
+	</aclrequest>
+</meta>

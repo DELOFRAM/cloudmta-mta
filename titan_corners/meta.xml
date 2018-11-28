@@ -1,0 +1,13 @@
+<meta>
+    <info author="http://Rick" type="script" />
+    <oop>true</oop>
+    <script src="config.lua" type="shared" />
+    <script src="core.lua" type="server" />
+
+    <script src="client/gui.lua" type="client" cache="false" />
+    
+    <script src="server/talking_s.lua" type="server" />
+    <script src="server/main_s.lua" type="server" />
+    <script src="client/AI.luac" type="client" cache="true" />
+    <min_mta_version server="1.3.4-0.00000" client="1.5.2-9.07903"></min_mta_version>
+</meta>

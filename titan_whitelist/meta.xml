@@ -1,0 +1,6 @@
+<meta>
+	<!--<script src="main.lua" />-->
+	<aclrequest>
+        <right name="function.kickPlayer" access="true" />
+    </aclrequest>
+</meta>

@@ -1,0 +1,7 @@
+<meta>
+	<oop>true</oop>
+	<file src="client/files/main.png" />
+	<file src="client/files/MyriadPro-Regular.otf" />
+
+	<script src="client/main.luac" type="client" cache="true" />
+</meta>

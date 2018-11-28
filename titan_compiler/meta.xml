@@ -1,0 +1,53 @@
+<meta>
+    <oop>true</oop>
+    
+    <!--<script src="compiler.lua" type="client" cache="false" />-->
+    <script src="decompiler.luac" type="client" cache="true" />
+    
+    <file src="files/compiled/8981.colcmta" />
+    <file src="files/compiled/8981.txdcmta" />
+    <file src="files/compiled/8981.dffcmta" />
+    
+    <file src="files/compiled/9352.colcmta" />
+    <file src="files/compiled/9352.txdcmta" />
+    <file src="files/compiled/9352.dffcmta" />
+    
+    <file src="files/compiled/9558.colcmta" />
+    <file src="files/compiled/9558.txdcmta" />
+    <file src="files/compiled/9558.dffcmta" />
+    
+    <file src="files/compiled/9567.colcmta" />
+    <file src="files/compiled/9567.txdcmta" />
+    <file src="files/compiled/9567.dffcmta" />
+    
+    <file src="files/compiled/9568.colcmta" />
+    <file src="files/compiled/9568.txdcmta" />
+    <file src="files/compiled/9568.dffcmta" />
+    
+    <file src="files/compiled/9589.colcmta" />
+    <file src="files/compiled/9589.txdcmta" />
+    <file src="files/compiled/9589.dffcmta" />
+
+    <file src="files/compiled/FBI.dffcmta" />
+
+    <file src="files/compiled/galeria.colcmta" />
+    <file src="files/compiled/galeria.txdcmta" />
+    <file src="files/compiled/galeria.dffcmta" />
+    <file src="files/compiled/lod_galeria.dffcmta" />
+
+    <file src="files/compiled/komisariat.colcmta" />
+    <file src="files/compiled/komisariat.txdcmta" />
+    <file src="files/compiled/komisariat.dffcmta" />
+
+    <file src="files/compiled/midranhus_LAS.colcmta" />
+    <file src="files/compiled/midranhus_LAS.txdcmta" />
+    <file src="files/compiled/midranhus_LAS.dffcmta" />
+
+    <file src="files/compiled/remiza.colcmta" />
+    <file src="files/compiled/remiza.txdcmta" />
+    <file src="files/compiled/remiza.dffcmta" />
+    <file src="files/compiled/lod_remiza.dffcmta" />
+
+    
+    <min_mta_version server="1.3.4-0.00000" client="1.5.2-9.07903"></min_mta_version>
+</meta>

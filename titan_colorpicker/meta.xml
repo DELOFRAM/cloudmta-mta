@@ -1,0 +1,11 @@
+<meta>
+	<info name="Titan Engine - System colorpickerowania (?)" author="Kubas" type="misc" version="1.0" />
+	<script src="picker_client.lua" type="client" cache="false" />
+	<script src="includes/option.lua" type="client" cache="false" />
+	<file src="cursor.png" />
+	<file src="h.png" />
+	<file src="sv.png" />
+	<file src="blank.png" />
+	<export function="openPicker" type="client" />  
+	<export function="closePicker" type="client" />
+</meta>

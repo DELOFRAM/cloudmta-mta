@@ -1,0 +1,9 @@
+<meta>
+	<info name="Titan Engine - System Quizów" author="http://Rick" type="misc" version="1.0" />
+	<script src="core.lua" />
+	<script src="client/GUI.lua" type="client" />
+
+	<aclrequest>
+		<right name="function.kickPlayer" access="true" />
+	</aclrequest>
+</meta>

@@ -1,0 +1,6 @@
+<meta>
+	<info author="Kubas" name="titanium Engine" description="Moduł kolczatek" />
+	<oop>true</oop>
+	<script src="client/main.luac" type="client" cache="true" />
+	<script src="server/main.lua" />
+</meta>

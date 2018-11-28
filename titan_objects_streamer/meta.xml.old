@@ -1,0 +1,97 @@
+<meta>
+	<oop>true</oop>
+
+	<script src="textures/main.luac" type="client" cache="true" />
+	<script src="client/main.lua" type="client" />
+    <script src="client/gates.lua" type="client" />
+
+	<script src="server/main.lua" />
+
+	<export function="playerLoadObjectsOnDimension" />
+
+	<file src="textures/texture.fx" />
+    
+    <!-- Tekstury ścian -->
+    <file src="textures/1.jpg" />
+    <file src="textures/2.jpg" />
+    <file src="textures/3.jpg" />
+    <file src="textures/4.jpg" />
+    <file src="textures/5.jpg" />
+    <file src="textures/6.jpg" />
+    <file src="textures/7.jpg" />
+    <file src="textures/8.jpg" />
+    <file src="textures/9.jpg" />
+    <file src="textures/10.jpg" />
+    <file src="textures/11.jpg" />
+    <file src="textures/12.jpg" />
+    <file src="textures/13.jpg" />
+    <file src="textures/14.jpg" />
+    <file src="textures/15.jpg" />
+    <file src="textures/16.jpg" />
+    <file src="textures/17.jpg" />
+    <file src="textures/18.jpg" />
+    <file src="textures/19.jpg" />
+    <file src="textures/20.jpg" />
+    <file src="textures/21.jpg" />
+    <file src="textures/22.jpg" />
+    <file src="textures/23.jpg" />
+    <file src="textures/24.jpg" />
+    <file src="textures/25.jpg" />
+    <file src="textures/26.jpg" />
+    <file src="textures/27.jpg" />
+    <file src="textures/28.jpg" />
+    <file src="textures/29.jpg" />
+    <file src="textures/30.jpg" />
+    <file src="textures/31.jpg" />
+    <file src="textures/32.jpg" />
+    <file src="textures/33.jpg" />
+    <file src="textures/34.jpg" />
+    <file src="textures/35.jpg" />
+    <file src="textures/36.jpg" />
+    <file src="textures/37.jpg" />
+    <file src="textures/38.jpg" />
+    <file src="textures/39.jpg" />
+    <file src="textures/40.jpg" />
+    <file src="textures/41.jpg" />
+    <file src="textures/42.jpg" />
+    <file src="textures/43.jpg" />
+    <file src="textures/44.jpg" />
+    <file src="textures/45.jpg" />
+    <file src="textures/46.jpg" />
+    <file src="textures/47.jpg" />
+    <file src="textures/48.jpg" />
+    <file src="textures/49.jpg" />
+    <file src="textures/50.jpg" />
+    <file src="textures/51.jpg" />
+    <file src="textures/52.jpg" />
+    <file src="textures/53.jpg" />
+    <file src="textures/54.jpg" />
+    <file src="textures/55.jpg" />
+    <file src="textures/56.jpg" />
+    <file src="textures/57.jpg" />
+    <file src="textures/58.jpg" />
+    <file src="textures/59.jpg" />
+    <file src="textures/60.jpg" />
+    <file src="textures/61.jpg" />
+    <file src="textures/62.jpg" />
+    <file src="textures/63.jpg" />
+    <file src="textures/64.jpg" />
+    <file src="textures/65.jpg" />
+    <file src="textures/66.jpg" />
+    <file src="textures/67.jpg" />
+    <file src="textures/68.jpg" />
+    <file src="textures/69.jpg" />
+    <file src="textures/70.jpg" />
+    <file src="textures/71.jpg" />
+    <file src="textures/72.jpg" />
+    <file src="textures/73.jpg" />
+    <file src="textures/74.jpg" />
+    <file src="textures/75.jpg" />
+    <file src="textures/76.jpg" />
+    <file src="textures/77.jpg" />
+    <file src="textures/78.jpg" />
+    <file src="textures/79.jpg" />
+    <file src="textures/80.jpg" />
+    <file src="textures/81.jpg" />
+    <file src="textures/82.jpg" />
+</meta>

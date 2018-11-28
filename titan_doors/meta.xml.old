@@ -1,0 +1,41 @@
+<meta>
+	<oop>true</oop>
+	<file src="doors/client/files/doorsCloseBg.png" />
+	<file src="doors/client/files/doorsOpenBg.png" />
+	<file src="doors/client/files/font.otf" />
+	<file src="doors/client/files/cash.mp3" />
+
+	<script src="doors/core.lua" />
+	<script src="doors/server/main_s.lua" />
+	<script src="doors/server/commands.lua" />
+
+	<script src="doors/client/main_c.luac" type="client" cache="true" />
+	<script src="doors/client/clothes.luac" type="client" cache="true" />
+	<script src="doors/client/gui/intCloset.luac" type="client" cache="true" />
+	<script src="doors/client/gui/intMagazine.luac" type="client" cache="true" />
+	<script src="doors/client/gui/intKup.luac" type="client" cache="true" />
+
+
+	<export function="getDoorInfo" />
+	<export function="getPickupInfo" />
+	<export function="getFirstPickup" />
+	<export function="getDoorInfoFromDimension" />
+	<export function="getDoorsOnDimension" />
+	<export function="getEntryPickups" />
+	<export function="getMagazineItem" />
+	<export function="giveMagazineItem" /> 
+	<export function="changePickupData" />
+	<export function="changeInteriorData" />
+	<export function="getMagazineItems" />
+
+	<export function="doesPlayerHavePermToDoors" />
+	<export function="doesPlayerHavePermToInterior" />
+	<export function="doorCreate" />
+	<export function="doorDestroy" />
+	<export function="doorPickupEnterCreate" />
+	<export function="doorPickupLeaveCreate" />
+	<export function="doorPickupDestroy" />
+	<export function="doorPickupEnterChange" />
+
+	<export function="getPlayerInteriors" />
+</meta>

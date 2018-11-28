@@ -1,0 +1,16 @@
+<meta>
+	<info name="Titan Engine - System hajsu" author="Kubas" type="misc" version="1.0" />
+	<oop>true</oop>
+	<script src="cash/server/main.lua" />
+	<script src="cash/server/commands.lua" />
+	<script src="cash/server/atm.lua" />
+
+	<script src="cash/client/main.luac" type="client" cache="true" />
+	<script src="cash/client/atm.luac" type="client" cache="true" />
+
+	<export function="addPlayerCash" />
+	<export function="takePlayerCash" />
+	<export function="getPlayerCash" />
+	<export function="getPlayerAccounts" />
+	<export function="isPlayerInBank" />
+</meta>

@@ -1,0 +1,17 @@
+<meta>
+    <oop>true</oop>
+    <script src="offers/core.lua" />
+    <script src="offers/server/commands.lua" />
+    <script src="offers/server/offers_s.lua" />
+    
+    <script src="offers/client/offerItem.luac" type="client" cache="true" />
+    
+    <export function="createNewOffer" />
+    <export function="cancelOffer" />
+    <export function="acceptOffer" />
+    
+    <export function="createRepairOffer" />
+    
+    <export function="doesPlayerHaveAppropriateDist" />
+    <min_mta_version server="1.3.4-0.00000" client="1.5.2-9.07903"></min_mta_version>
+</meta>

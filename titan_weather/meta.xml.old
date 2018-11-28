@@ -1,0 +1,10 @@
+<meta>
+	<info author="Kubas, Rick" name="titanium Engine" description="Moduł pogody" />
+	<oop>true</oop>
+	<script src="core.lua" />
+	<script src="client/main.luac" type="client" cache="true" />
+
+	<aclrequest>
+		<right name="function.callRemote" access="true" />
+	</aclrequest>
+</meta>

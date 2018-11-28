@@ -1,0 +1,10 @@
+<meta>
+	<oop>true</oop>
+	<script src="server/main.lua" />
+
+	<export function="playerFriends" />
+
+	<aclrequest>
+		<right name="function.fetchRemote" access="true" />
+	</aclrequest>
+</meta>

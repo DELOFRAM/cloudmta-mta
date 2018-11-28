@@ -1,0 +1,321 @@
+<meta>
+    <info author="Kubas" name="titanium Engine" description="Moduł pojazdów" />
+    <oop>true</oop>
+    <script src="vehs/client/sounds.luac" type="client" cache="true" />
+    <script src="vehs/client/preventDamage.luac" type="client" cache="true" />
+    <script src="vehs/client/binds.luac" type="client" cache="true" />
+    <script src="lights/client.luac" type="client" cache="true" />
+    <script src="handbrake/handbrake_c.luac" type="client" cache="true" />
+    <script src="vehs/server/vehs_s.lua" />
+    <script src="vehs/core.lua" />
+    <script src="vehs/server/commands.lua" />
+    <script src="vehs/server/tuning_s.lua" />
+    <script src="vehs/client/gui_c.luac" type="client" cache="true" />
+    <script src="vehs/client/kogutPos.luac" type="client" cache="true" />
+    <script src="vehs/client/indicators.luac" type="client" cache="true" />
+    <script src="vehs/client/blockVehReverse.luac" type="client" cache="true" />
+    <script src="vehs/client/heliRotors.luac" type="client" cache="true" />
+    <script src="vehs/client/alarm.luac" type="client" cache="true" />
+    <script src="vehs/server/vehTimers.lua" />
+    <script src="vehs/client/towVehicle.luac" type="client" cache="true" />
+    <script src="vehs/server/towVehicle.lua" />
+    
+    
+    <script src="sirens/client/sirenInfo.lua" type="client" cache="false" />
+    <script src="sirens/client/main.lua" type="client" cache="false" />
+    <script src="sirens/server/main.lua" />
+    <script src="vehs/server/vehMenu_s.lua" />
+    <file src="handbrake/sounds/handbrake.wav" type="client" />
+    
+    <!-- VEH MENU -->
+    <script src="vehmenu/client/vehmenu_c.lua" type="client" />
+    <script src="vehmenu/server/vehmenu_s.lua" type="server" />
+    
+    <!-- RANCHER LURE -->
+    <script src="veh_lure/client/lure_c.lua" type="client" />
+    <script src="veh_lure/server/lure_s.lua" type="server" />
+    
+    <file src="vehmenu/client/files/hex_main.png" />
+    <file src="vehmenu/client/files/hex_empty.png" />
+    <file src="vehmenu/client/files/icon_windows.png" />
+    <file src="vehmenu/client/files/icon_hood.png" />
+    <file src="vehmenu/client/files/icon_trunk.png" />
+    <file src="vehmenu/client/files/icon_doors.png" />
+    <file src="vehmenu/client/files/icon_audio.png" />
+    
+    <script src="vehs/client/vehicleDistance.luac" type="client" cache="true" />
+    <script src="vehs/client/vehInfo.luac" type="client" cache="true" />
+    <script src="vehs/client/vehPrzypisz.luac" type="client" cache="true" />
+    <script src="vehs/client/tuneInfo.luac" type="client" cache="true" />
+    <script src="vehs/client/gps.luac" type="client" cache="true" />
+    
+    <export function="vehCreate" />
+    <export function="vehDestroy" />
+    <export function="doesPlayerHaveDrivePerm" />
+    <export function="isVeh" />
+    <export function="getVehInfo" />
+    <export function="assignVehicle" />
+    <export function="changeVehicleColor" />
+    <export function="getClosestVehicle" />
+    <export function="saveVeh" />
+    <export function="fixBrokenVehicle" />
+    <export function="getVehicleTable" />
+    <export function="respawnGroupVehicles" />
+    <export function="setVehFlashType" />
+    <export function="changeVehicleData" />
+    <export function="getVehiclesToDashboard" />
+    <export function="getVehiclesOppositeToYou" />
+    <export function="parkVehicle" />
+    <export function="getAllVehicles" />
+    <export function="turnOffVeh" />
+    <export function="getGroupVehicles" />
+    <export function="fixOnlyBroken" />
+    <export function="uSVehicle" />
+    <export function="sVehicle" />
+    <export function="getWorkVehicles" />
+    <export function="showVehInfo" />
+    <export function="isVehicleEmpty" />
+    <export function="reloadVehicle" />
+    <export function="vehmenuToggleLock" />
+    <export function="showVehTune" />
+    <export function="showPrzypisz" />
+    <export function="getVehiclesOppositeToYouTireBlock" />
+    <export function="locateVehicle" />
+    
+    <file src="sirens/client/files/siren1PD.mp3" />
+    <file src="sirens/client/files/siren2PD.mp3" />
+    <file src="sirens/client/files/siren3PD.mp3" />
+    <file src="sirens/client/files/siren4PD.mp3" />
+    <file src="sirens/client/files/siren1FD.mp3" />
+    <file src="sirens/client/files/siren2FD.mp3" />
+    <file src="sirens/client/files/siren3FD.mp3" />
+    <file src="sirens/client/files/siren4FD.mp3" />
+    
+    <file src="vehs/client/files/handbrakeon.mp3" />
+    <file src="vehs/client/files/handbrakeoff.mp3" />
+    
+    <file src="vehs/client/files/doorsLock.mp3" />
+    <file src="vehs/client/files/doorsAlarm.mp3" />
+    <file src="vehs/client/files/alarm.mp3" />
+    <file src="vehs/client/files/arrow_d.png" />
+    <file src="vehs/client/files/arrow_u.png" />
+    <file src="vehs/client/files/bg.png" />
+    <file src="vehs/client/files/vehbg.png" />
+    <file src="vehs/client/files/font.otf" />
+    <file src="vehs/client/files/vehs/400.jpg" />
+    <file src="vehs/client/files/vehs/401.jpg" />
+    <file src="vehs/client/files/vehs/402.jpg" />
+    <file src="vehs/client/files/vehs/403.jpg" />
+    <file src="vehs/client/files/vehs/404.jpg" />
+    <file src="vehs/client/files/vehs/405.jpg" />
+    <file src="vehs/client/files/vehs/406.jpg" />
+    <file src="vehs/client/files/vehs/407.jpg" />
+    <file src="vehs/client/files/vehs/408.jpg" />
+    <file src="vehs/client/files/vehs/409.jpg" />
+    <file src="vehs/client/files/vehs/410.jpg" />
+    <file src="vehs/client/files/vehs/411.jpg" />
+    <file src="vehs/client/files/vehs/412.jpg" />
+    <file src="vehs/client/files/vehs/413.jpg" />
+    <file src="vehs/client/files/vehs/414.jpg" />
+    <file src="vehs/client/files/vehs/415.jpg" />
+    <file src="vehs/client/files/vehs/416.jpg" />
+    <file src="vehs/client/files/vehs/417.jpg" />
+    <file src="vehs/client/files/vehs/418.jpg" />
+    <file src="vehs/client/files/vehs/419.jpg" />
+    <file src="vehs/client/files/vehs/420.jpg" />
+    <file src="vehs/client/files/vehs/421.jpg" />
+    <file src="vehs/client/files/vehs/422.jpg" />
+    <file src="vehs/client/files/vehs/423.jpg" />
+    <file src="vehs/client/files/vehs/424.jpg" />
+    <file src="vehs/client/files/vehs/425.jpg" />
+    <file src="vehs/client/files/vehs/426.jpg" />
+    <file src="vehs/client/files/vehs/427.jpg" />
+    <file src="vehs/client/files/vehs/428.jpg" />
+    <file src="vehs/client/files/vehs/429.jpg" />
+    <file src="vehs/client/files/vehs/430.jpg" />
+    <file src="vehs/client/files/vehs/431.jpg" />
+    <file src="vehs/client/files/vehs/432.jpg" />
+    <file src="vehs/client/files/vehs/433.jpg" />
+    <file src="vehs/client/files/vehs/434.jpg" />
+    <file src="vehs/client/files/vehs/435.jpg" />
+    <file src="vehs/client/files/vehs/436.jpg" />
+    <file src="vehs/client/files/vehs/437.jpg" />
+    <file src="vehs/client/files/vehs/438.jpg" />
+    <file src="vehs/client/files/vehs/439.jpg" />
+    <file src="vehs/client/files/vehs/440.jpg" />
+    <file src="vehs/client/files/vehs/441.jpg" />
+    <file src="vehs/client/files/vehs/442.jpg" />
+    <file src="vehs/client/files/vehs/443.jpg" />
+    <file src="vehs/client/files/vehs/444.jpg" />
+    <file src="vehs/client/files/vehs/445.jpg" />
+    <file src="vehs/client/files/vehs/446.jpg" />
+    <file src="vehs/client/files/vehs/447.jpg" />
+    <file src="vehs/client/files/vehs/448.jpg" />
+    <file src="vehs/client/files/vehs/449.jpg" />
+    <file src="vehs/client/files/vehs/450.jpg" />
+    <file src="vehs/client/files/vehs/451.jpg" />
+    <file src="vehs/client/files/vehs/452.jpg" />
+    <file src="vehs/client/files/vehs/453.jpg" />
+    <file src="vehs/client/files/vehs/454.jpg" />
+    <file src="vehs/client/files/vehs/455.jpg" />
+    <file src="vehs/client/files/vehs/456.jpg" />
+    <file src="vehs/client/files/vehs/457.jpg" />
+    <file src="vehs/client/files/vehs/458.jpg" />
+    <file src="vehs/client/files/vehs/459.jpg" />
+    <file src="vehs/client/files/vehs/460.jpg" />
+    <file src="vehs/client/files/vehs/461.jpg" />
+    <file src="vehs/client/files/vehs/462.jpg" />
+    <file src="vehs/client/files/vehs/463.jpg" />
+    <file src="vehs/client/files/vehs/464.jpg" />
+    <file src="vehs/client/files/vehs/465.jpg" />
+    <file src="vehs/client/files/vehs/466.jpg" />
+    <file src="vehs/client/files/vehs/467.jpg" />
+    <file src="vehs/client/files/vehs/468.jpg" />
+    <file src="vehs/client/files/vehs/469.jpg" />
+    <file src="vehs/client/files/vehs/470.jpg" />
+    <file src="vehs/client/files/vehs/471.jpg" />
+    <file src="vehs/client/files/vehs/472.jpg" />
+    <file src="vehs/client/files/vehs/473.jpg" />
+    <file src="vehs/client/files/vehs/474.jpg" />
+    <file src="vehs/client/files/vehs/475.jpg" />
+    <file src="vehs/client/files/vehs/476.jpg" />
+    <file src="vehs/client/files/vehs/477.jpg" />
+    <file src="vehs/client/files/vehs/478.jpg" />
+    <file src="vehs/client/files/vehs/479.jpg" />
+    <file src="vehs/client/files/vehs/480.jpg" />
+    <file src="vehs/client/files/vehs/481.jpg" />
+    <file src="vehs/client/files/vehs/482.jpg" />
+    <file src="vehs/client/files/vehs/483.jpg" />
+    <file src="vehs/client/files/vehs/484.jpg" />
+    <file src="vehs/client/files/vehs/485.jpg" />
+    <file src="vehs/client/files/vehs/486.jpg" />
+    <file src="vehs/client/files/vehs/487.jpg" />
+    <file src="vehs/client/files/vehs/488.jpg" />
+    <file src="vehs/client/files/vehs/489.jpg" />
+    <file src="vehs/client/files/vehs/490.jpg" />
+    <file src="vehs/client/files/vehs/491.jpg" />
+    <file src="vehs/client/files/vehs/492.jpg" />
+    <file src="vehs/client/files/vehs/493.jpg" />
+    <file src="vehs/client/files/vehs/494.jpg" />
+    <file src="vehs/client/files/vehs/495.jpg" />
+    <file src="vehs/client/files/vehs/496.jpg" />
+    <file src="vehs/client/files/vehs/497.jpg" />
+    <file src="vehs/client/files/vehs/498.jpg" />
+    <file src="vehs/client/files/vehs/499.jpg" />
+    <file src="vehs/client/files/vehs/500.jpg" />
+    <file src="vehs/client/files/vehs/501.jpg" />
+    <file src="vehs/client/files/vehs/502.jpg" />
+    <file src="vehs/client/files/vehs/503.jpg" />
+    <file src="vehs/client/files/vehs/504.jpg" />
+    <file src="vehs/client/files/vehs/505.jpg" />
+    <file src="vehs/client/files/vehs/506.jpg" />
+    <file src="vehs/client/files/vehs/507.jpg" />
+    <file src="vehs/client/files/vehs/508.jpg" />
+    <file src="vehs/client/files/vehs/509.jpg" />
+    <file src="vehs/client/files/vehs/510.jpg" />
+    <file src="vehs/client/files/vehs/511.jpg" />
+    <file src="vehs/client/files/vehs/512.jpg" />
+    <file src="vehs/client/files/vehs/513.jpg" />
+    <file src="vehs/client/files/vehs/514.jpg" />
+    <file src="vehs/client/files/vehs/515.jpg" />
+    <file src="vehs/client/files/vehs/516.jpg" />
+    <file src="vehs/client/files/vehs/517.jpg" />
+    <file src="vehs/client/files/vehs/518.jpg" />
+    <file src="vehs/client/files/vehs/519.jpg" />
+    <file src="vehs/client/files/vehs/520.jpg" />
+    <file src="vehs/client/files/vehs/521.jpg" />
+    <file src="vehs/client/files/vehs/522.jpg" />
+    <file src="vehs/client/files/vehs/523.jpg" />
+    <file src="vehs/client/files/vehs/524.jpg" />
+    <file src="vehs/client/files/vehs/525.jpg" />
+    <file src="vehs/client/files/vehs/526.jpg" />
+    <file src="vehs/client/files/vehs/527.jpg" />
+    <file src="vehs/client/files/vehs/528.jpg" />
+    <file src="vehs/client/files/vehs/529.jpg" />
+    <file src="vehs/client/files/vehs/530.jpg" />
+    <file src="vehs/client/files/vehs/531.jpg" />
+    <file src="vehs/client/files/vehs/532.jpg" />
+    <file src="vehs/client/files/vehs/533.jpg" />
+    <file src="vehs/client/files/vehs/534.jpg" />
+    <file src="vehs/client/files/vehs/535.jpg" />
+    <file src="vehs/client/files/vehs/536.jpg" />
+    <file src="vehs/client/files/vehs/537.jpg" />
+    <file src="vehs/client/files/vehs/538.jpg" />
+    <file src="vehs/client/files/vehs/539.jpg" />
+    <file src="vehs/client/files/vehs/540.jpg" />
+    <file src="vehs/client/files/vehs/541.jpg" />
+    <file src="vehs/client/files/vehs/542.jpg" />
+    <file src="vehs/client/files/vehs/543.jpg" />
+    <file src="vehs/client/files/vehs/544.jpg" />
+    <file src="vehs/client/files/vehs/545.jpg" />
+    <file src="vehs/client/files/vehs/546.jpg" />
+    <file src="vehs/client/files/vehs/547.jpg" />
+    <file src="vehs/client/files/vehs/548.jpg" />
+    <file src="vehs/client/files/vehs/549.jpg" />
+    <file src="vehs/client/files/vehs/550.jpg" />
+    <file src="vehs/client/files/vehs/551.jpg" />
+    <file src="vehs/client/files/vehs/552.jpg" />
+    <file src="vehs/client/files/vehs/553.jpg" />
+    <file src="vehs/client/files/vehs/554.jpg" />
+    <file src="vehs/client/files/vehs/555.jpg" />
+    <file src="vehs/client/files/vehs/556.jpg" />
+    <file src="vehs/client/files/vehs/557.jpg" />
+    <file src="vehs/client/files/vehs/558.jpg" />
+    <file src="vehs/client/files/vehs/559.jpg" />
+    <file src="vehs/client/files/vehs/560.jpg" />
+    <file src="vehs/client/files/vehs/561.jpg" />
+    <file src="vehs/client/files/vehs/562.jpg" />
+    <file src="vehs/client/files/vehs/563.jpg" />
+    <file src="vehs/client/files/vehs/564.jpg" />
+    <file src="vehs/client/files/vehs/565.jpg" />
+    <file src="vehs/client/files/vehs/566.jpg" />
+    <file src="vehs/client/files/vehs/567.jpg" />
+    <file src="vehs/client/files/vehs/568.jpg" />
+    <file src="vehs/client/files/vehs/569.jpg" />
+    <file src="vehs/client/files/vehs/570.jpg" />
+    <file src="vehs/client/files/vehs/571.jpg" />
+    <file src="vehs/client/files/vehs/572.jpg" />
+    <file src="vehs/client/files/vehs/573.jpg" />
+    <file src="vehs/client/files/vehs/574.jpg" />
+    <file src="vehs/client/files/vehs/575.jpg" />
+    <file src="vehs/client/files/vehs/576.jpg" />
+    <file src="vehs/client/files/vehs/577.jpg" />
+    <file src="vehs/client/files/vehs/578.jpg" />
+    <file src="vehs/client/files/vehs/579.jpg" />
+    <file src="vehs/client/files/vehs/580.jpg" />
+    <file src="vehs/client/files/vehs/581.jpg" />
+    <file src="vehs/client/files/vehs/582.jpg" />
+    <file src="vehs/client/files/vehs/583.jpg" />
+    <file src="vehs/client/files/vehs/584.jpg" />
+    <file src="vehs/client/files/vehs/585.jpg" />
+    <file src="vehs/client/files/vehs/586.jpg" />
+    <file src="vehs/client/files/vehs/587.jpg" />
+    <file src="vehs/client/files/vehs/588.jpg" />
+    <file src="vehs/client/files/vehs/589.jpg" />
+    <file src="vehs/client/files/vehs/590.jpg" />
+    <file src="vehs/client/files/vehs/591.jpg" />
+    <file src="vehs/client/files/vehs/592.jpg" />
+    <file src="vehs/client/files/vehs/593.jpg" />
+    <file src="vehs/client/files/vehs/594.jpg" />
+    <file src="vehs/client/files/vehs/595.jpg" />
+    <file src="vehs/client/files/vehs/596.jpg" />
+    <file src="vehs/client/files/vehs/597.jpg" />
+    <file src="vehs/client/files/vehs/598.jpg" />
+    <file src="vehs/client/files/vehs/599.jpg" />
+    <file src="vehs/client/files/vehs/600.jpg" />
+    <file src="vehs/client/files/vehs/601.jpg" />
+    <file src="vehs/client/files/vehs/602.jpg" />
+    <file src="vehs/client/files/vehs/603.jpg" />
+    <file src="vehs/client/files/vehs/604.jpg" />
+    <file src="vehs/client/files/vehs/605.jpg" />
+    <file src="vehs/client/files/vehs/606.jpg" />
+    <file src="vehs/client/files/vehs/607.jpg" />
+    <file src="vehs/client/files/vehs/608.jpg" />
+    <file src="vehs/client/files/vehs/609.jpg" />
+    
+    <script src="dashcam/client/main.luac" type="client" cache="true" />
+    <file src="dashcam/client/files/dashcam.png" />
+    
+    <file src="vehs/client/files/startengine.wav" />
+    <min_mta_version server="1.3.4-0.00000" client="1.5.2-9.07903"></min_mta_version>
+</meta>

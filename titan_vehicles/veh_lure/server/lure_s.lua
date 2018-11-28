@@ -1,0 +1,74 @@
+local components = {"naklejka", "#swiatelka", "podst"}
+local legenda = "naklejka, #swiatelka, podst"
+local legenda2 = "1001, 1023, 1014, 1003, 1158"
+
+function cmd_lure(plr, cmd, ...)
+	local option = table.concat({...}, " ")
+	
+	if not isPedInVehicle(plr) then
+		exports.titan_noti:showBox(plr, "Musisz być w Rancherze Lure.")
+		return
+	end
+	
+	local veh = getPedOccupiedVehicle(plr)
+	if getElementModel(veh) ~= 505 then
+		exports.titan_noti:showBox(plr, "Musisz być w Rancherze Lure.")
+		return
+	end
+	
+	if option:len() < 1 then
+		exports.titan_noti:showBox(plr, "TIP: /"..cmd.." [lista/nazwa komponentu]")
+		return
+	end
+	
+	if option == "lista" then
+		exports.titan_noti:showBox(plr, "Dostępne komponenty: "..legenda)
+		return
+	end
+	
+	for i,v in ipairs(components) do
+		if option:lower() == v then
+			triggerClientEvent("addComponent", plr, veh, v)
+			return
+		end
+	end
+
+	exports.titan_noti:showBox(plr, "Dostępne komponenty: "..legenda)
+end
+addCommandHandler("comp", cmd_lure)
+
+function cmd_upg(plr, cmd, ...)
+	local option = table.concat({...}, " ")
+	if not isPedInVehicle(plr) then
+		exports.titan_noti:showBox(plr, "Musisz być w Rancherze Lure.")
+		return
+	end
+	
+	local veh = getPedOccupiedVehicle(plr)
+	if getElementModel(veh) ~= 505 then
+		exports.titan_noti:showBox(plr, "Musisz być w Rancherze Lure.")
+		return
+	end
+	
+	if option:len() < 1 then
+		exports.titan_noti:showBox(plr, "TIP: /"..cmd.." [lista/id ulepszenia]")
+		return
+	end
+	
+	option = tostring(option)
+	
+	if option == "lista" then
+		exports.titan_noti:showBox(plr, "Dostępne komponenty: "..legenda2)
+	elseif option == "1001" then
+		addVehicleUpgrade(veh, 1001)
+	elseif option == "1023" then
+		addVehicleUpgrade(veh, 1023)
+	elseif option == "1014" then
+		addVehicleUpgrade(veh, 1014)
+	elseif option == "1003" then
+		addVehicleUpgrade(veh, 1003)
+	elseif option == "1158" then
+		addVehicleUpgrade(veh, 1158)
+	end
+end
+addCommandHandler("upg", cmd_upg)

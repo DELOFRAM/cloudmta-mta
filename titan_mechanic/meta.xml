@@ -1,0 +1,16 @@
+<meta>
+    <info author="Kubas" name="titanium Engine" description="Moduł mechanika" />
+    
+    <oop>true</oop>
+    
+    <file src="client/files/status.png" />
+    <file src="client/files/status_obrys.png" />
+    
+    <script src="client/main.luac" type="client" cache="true" />
+    <script src="server/main.lua" />
+    
+    <export function="startRepair" />
+    <export function="doesPlayerDoingRepair" />
+    <export function="createRepairGUI" />
+    <min_mta_version server="1.3.4-0.00000" client="1.5.2-9.07903"></min_mta_version>
+</meta>

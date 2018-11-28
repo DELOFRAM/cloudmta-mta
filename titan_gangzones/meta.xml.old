@@ -1,0 +1,6 @@
+<meta>
+	<oop>true</oop>
+	<script src="client/main.luac" type="client" cache="true" />
+	<script src="client/create.luac" type="client" cache="true" />
+	<script src="server/main.lua" />
+</meta>

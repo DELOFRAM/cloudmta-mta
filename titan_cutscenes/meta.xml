@@ -1,0 +1,15 @@
+<meta>
+	<info author="Tost" name="titan_cutscenes"/>
+	<script src="client/core.c.lua" type="client"/>
+	<script src="server/core.s.lua" type="server"/>
+	<min_mta_version client="1.5.2"/>
+	<!-- PLIKI AUDIO -->
+	<file src="files/airport.mp3"/>
+	<file src="files/outskirts.mp3"/>
+	<file src="files/ship.mp3"/>
+	<file src="files/eastls.mp3"/>
+	<file src="files/westls.mp3"/>
+	
+	<export function="setCutscene" type="client"/>
+	<export function="setCutscene"/>
+</meta>

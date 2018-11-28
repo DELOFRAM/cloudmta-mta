@@ -1,0 +1,13 @@
+<meta>
+	<info author="http://Rick" version="1.0.2" name="Synchronization Fire" type="script" />
+    <min_mta_version client="1.4.1" server="1.4.1" />
+	<script src="Commands.lua" type="server"/>
+	<script src="Types.lua" type="server"/>
+	<script src="Utility.lua" type="server"/>
+	<script src="Sync.lua" type="server"/>
+	<script src="SyncC.lua" type="client"/>
+	<script src="Extinction.lua" type="client"/>
+	<script src="hydrant.lua" type="client"/>
+
+
+</meta>

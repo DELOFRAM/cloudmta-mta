@@ -1,0 +1,8 @@
+<meta>
+	<info name="Titan Engine - System Śmietników" author="http://Rick" type="misc" version="1.0" />
+	<oop>true</oop>	
+	<script src="core.lua" type="server"/>
+	<export function="DustbinsLoad" />
+	<export function="DustbinsCreate" />
+	<export function="DustbinsRemove" />
+</meta>
